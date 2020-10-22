@@ -1,55 +1,77 @@
 @echo off
 if exist .env (
     echo.
-    echo *** Okruzenje je vec bilo podeseno, postoji folder .env
-    echo *** Jupyter mozete pokrenuti tako sto pokreneta START_JUPYTER.BAT u istom ovom folderu.
+    echo *** Okruzenje je od ranije podeseno, postoji folder .env
+    echo *** Jupyter mozete koristiti tako sto pokreneta START_JUPYTER.BAT u istom ovom folderu
     echo.
     goto end
 )
-setlocal
-set MSG1=
-set MSG2=
-set PY_MIN=3.6
-set PY_MAX=3.8
-set PY_TEST_VER_LN="import sys; ('%PY_MIN%' <= '%%s.%%s' %% sys.version_info[0:2] <= '%PY_MAX%') or quit(100)" 
+setlocal EnableDelayedExpansion
+set MSG1=0
+set MSG2=0
+set PY_VERS=3.6,3.7,3.8
+set PY_TEST_VER_LN="import sys; ('%%s.%%s' %% sys.version_info[0:2] in '%PY_VERS%'.split(',')) or quit(100)" 
+
+rem prvo pokusavamo python.exe iz PATH-a
 python -c %PY_TEST_VER_LN% 2>nul
-if errorlevel 101 goto python_not_in_path
-set MSG1=!!! Postoji komanda 'python' ali se njom ne pokrece Python %PY_MIN% do %PY_MAX%
-if errorlevel 1 goto not_in_path
-set PY_CMD=python
-goto py_found
 
-:python_not_in_path
+if "%ERRORLEVEL%"=="0" (
+    set PY_CMD=python
+    goto python_found
+)
+
+set MSG1=Ne postoji komanda 'python' (Python se ne nalazi u 'PATH' promenljivoj okruzenja)
+if "%ERRORLEVEL%"=="100" (
+    set MSG1=Postoji komanda 'python' ali verzija nije ni jedna od: %PY_VERS%
+)
+
+rem zatim pokusavamo default Python 3 iz py.exe iz PATH-a
 py -3 -c %PY_TEST_VER_LN% 2>nul
-if errorlevel 101 goto err_not_found
-set MSG2=!!! Postoji komanda 'py' ali se komandom 'py -3' ne pokrece Python %PY_MIN% do %PY_MAX%
-if errorlevel 1 goto err_not_found
-set PY_CMD=py -3
-goto py_found
+if "%ERRORLEVEL%"=="0" (
+    set PY_CMD=py -3
+    goto python_found
+)
+set MSG2=Ne postoji komanda 'py' (nije instaliran Python ili je instaliran bez 'Python launcher')
+if "%ERRORLEVEL%"=="100" (
+    set MSG2=Postoji komanda 'py' ali nije instalirana ni jedna od verzija: %PY_VERS%
 
-:err_not_found
+    rem na kraju pokuvamo konkrente verzije iz py.exe
+    for %%V in (%PY_VERS%) do (
+        rem echo probam veryiju %%V
+        py -%%V -c "quit(0)" 1>nul 2>nul
+        if "!ERRORLEVEL%!"=="0" (
+            set PY_CMD=py -%%V
+            goto python_found
+        )
+    )
+)
+
+rem ako nijedan pokusaj nije uspeo
 echo.
-if not "%MSG1%"=="" echo %MSG1%
-if not "%MSG2%"=="" echo %MSG2%
-if "%MSG1%"=="" if "%MSG2%"=="" echo !!! Nije pronadjen instaliran Python (niti komanda 'python' niti komanda 'py')
+echo Podesavanje nije moguce jer nije pronadjena odgovarajuca verzija Python-a:
+if not "%MSG1%"=="0" echo   - %MSG1%
+if not "%MSG2%"=="0" echo   - %MSG2%
 echo.
 goto end
 
-:py_found
-@echo on
+:python_found
+python -c "import sys; print('*** Postavlja se virtuelno okruzenje za Python %%s.%%s.%%s koriscenjem Python-a koji se pokrece komandom \'%PY_CMD%\'' %% sys.version_info[0:3])"
 %PY_CMD% -m venv .env
 call .env\Scripts\activate.bat
+echo *** Virtuelno okruzenje je postavljeno u folderu .env
+echo.
+echo *** Instaliraju se potrebni paketi u virtuelno okruzenje (treba da ste povezani na internet)
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-call .env\Scripts\deactivate.bat
 echo @echo off > START_JUPYTER.BAT
 echo call .env\Scripts\activate.bat >> START_JUPYTER.BAT
 echo jupyter notebook >> START_JUPYTER.BAT
 echo pause >> START_JUPYTER.BAT
 echo.
-echo *** Podesavanje je uspesno zavrceno. 
-echo *** Jupyter mozete pokrenuti tako sto pokreneta START_JUPYTER.BAT u istom ovom folderu.
+echo *** Podesavanje je uspesno zavrseno
+echo *** Jupyter mozete pokrenuti tako sto pokrenete START_JUPYTER.BAT u istom ovom folderu
 echo.
+call .env\Scripts\deactivate.bat
 
 :end
 pause
