@@ -67,9 +67,25 @@ echo @echo off > START_JUPYTER.BAT
 echo call .env\Scripts\activate.bat >> START_JUPYTER.BAT
 echo jupyter notebook >> START_JUPYTER.BAT
 echo pause >> START_JUPYTER.BAT
+
+
+set SCRIPT="%TMP%\idle_shortcut_%RANDOM%.py"
+echo import os > %SCRIPT%
+echo from win32com.client import Dispatch >> %SCRIPT%
+echo folder = os.path.abspath(r'%~dp0 '[:-1]) >> %SCRIPT%
+echo sh = Dispatch('WScript.Shell') >> %SCRIPT%
+echo st = sh.CreateShortCut(os.path.join(folder, 'START_IDLE.lnk')) >> %SCRIPT%
+echo st.Targetpath = os.path.join(folder, '.env/Scripts/pythonw.exe') >> %SCRIPT%
+echo st.Arguments = '-m idlelib.idle' >> %SCRIPT%
+echo st.WorkingDirectory = folder >> %SCRIPT%
+echo st.Description = 'Launches IDLE, the interactive environment for Python' >> %SCRIPT%
+echo st.save() >> %SCRIPT%
+python %SCRIPT%
+del %SCRIPT%
 echo.
 echo *** Podesavanje je uspesno zavrseno
 echo *** Jupyter mozete pokrenuti tako sto pokrenete START_JUPYTER.BAT u istom ovom folderu
+echo *** IDLE mozete pokrenuti tako sto pokrenete START_IDLE precicu u istom ovom folderu
 echo.
 call .env\Scripts\deactivate.bat
 
