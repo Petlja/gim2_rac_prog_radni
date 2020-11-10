@@ -33,7 +33,8 @@ i onda će napraviti:
 Sadržaj foldera
 ===============
 
-Datoteke
+Sledeće datoteke sadrže vežbe iz teme "Rad sa podacima u tekstualnom 
+programskom jeziku":
 
 - J01.ipynb
 - J02.ipynb
@@ -46,8 +47,7 @@ Datoteke
 - J09.ipynb
 - J10.ipynb
 
-sadrže vežbe iz segmenta "Obrada podataka u tekstualnom programskom jeziku",
-dok folderi
+dok sledeći folderi teme "Tehnike programiranja":
 
 - P01
 - P02
@@ -57,13 +57,13 @@ dok folderi
 - P06
 - P07
 
-sadrže vežbe iz segmenta "Programiranje". Folderi
+Folderi
 
 - podaci, i
 - slike
 
-sadrže pomoćne fajlove za segment "Obrada podataka u tekstualnom programskom jeziku".
-(Nema potrebe da tamo zalaziš, ali neće biti nikakve štete i ako malo virneš i
+sadrže pomoćne fajlove za temu "Rad sa podacima u tekstualnom 
+programskom jeziku". (Nema potrebe da tamo zalaziš, ali neće biti nikakve štete i ako malo virneš i
 baciš pogled na podršku za naše kurseve.)
 
 Precizne instrukcije kako da pokreneš Džupiter, odnosno, IDLE, kako da pristupiš
@@ -73,9 +73,9 @@ zadacima i šta se od tebe očekuje pri izradi svake vežbe naći ćeš unutar k
 
 Želimo ti uspešno učenje!
 
-Za sve komentare ili probleme slobodno pošalji email na adresu
+Za sve komentare ili probleme slobodno nam pišite na forumu:
 
-  ... (NEKA ADRESA ZA PODRŠKU)
+https://algora.petlja.org/c/pitanja
 
 Tvoj,
 Petlja tim
