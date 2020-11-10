@@ -75,7 +75,7 @@ zadacima i šta se od tebe očekuje pri izradi svake vežbe naći ćeš unutar k
 
 Za sve komentare ili probleme slobodno nam pišite na forumu:
 
-https://algora.petlja.org/c/pitanja
+  https://algora.petlja.org/c/pitanja
 
 Tvoj,
 Petlja tim
