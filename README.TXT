@@ -14,7 +14,7 @@ Podešavanje
 ===========
 
 Ako koristiš Windows operativni sistem jedina pretpostavka je da imaš 
-instaliran Python u verziji 3.6 do 3.9 (standarnda distribucija sa
+instaliran Python u verziji 3.6 do 3.9 (standarnda instalacija sa
 sajta https://www.python.org/). Za sve ostalo
 (Džupiter i druge neophodne biblioteke) ćemo se pobrinuti mi.
 
