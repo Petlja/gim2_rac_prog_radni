@@ -4,10 +4,11 @@ Pozdravljamo tvoju odluku da preuzmeš datoteke za vežbu na svoj računar
 i da na taj način uvežbaš veštine za koje smatramo da su važne za svakog
 mladog čoveka koji će živeti i raditi u 21. veku!
 
-Ovaj folder sadrži datoteke za vežbu iz sledećih segmenata kursa:
+Ovaj folder sadrži datoteke za vežbu iz sledećih segmenata kursa 
+https://petlja.org/kurs/483/ koji pokriva dve teme:
 
-- "Obrada podataka u tekstualnom programskom jeziku" (Džupiter+Pajton), i
-- "Programiranje" (Pajton).
+- "Obrada podataka u tekstualnom programskom jeziku (Džupiter+Pajton) i
+- "Programiranje" (Pajton), 
 
 Očekujemo da već imaš instaliran Pajton na svom računaru, a za sve ostalo
 (Džupiter i druge neophodne biblioteke) ćemo se pobrinuti mi.
