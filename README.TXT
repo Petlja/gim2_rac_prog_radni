@@ -4,26 +4,34 @@ Pozdravljamo tvoju odluku da preuzmeš datoteke za vežbu na svoj računar
 i da na taj način uvežbaš veštine za koje smatramo da su važne za svakog
 mladog čoveka koji će živeti i raditi u 21. veku!
 
-Ovaj folder sadrži datoteke za vežbu iz sledećih segmenata kursa 
-https://petlja.org/kurs/483/ koji pokriva dve teme:
+Ovaj folder sadrži datoteke za vežbu za kurs https://petlja.org/kurs/483/
+i pokriva obe teme tog kursa:
 
-- "Obrada podataka u tekstualnom programskom jeziku (Džupiter+Pajton) i
-- "Programiranje" (Pajton), 
+- "Rad sa podacima u tekstualnom programskom jeziku" (Džupiter+Pajton) i
+- "Tehnike programiranja" (Pajton), 
 
-Očekujemo da već imaš instaliran Pajton na svom računaru, a za sve ostalo
+Podešavanje
+===========
+
+Ako koristiš Windows operativni sistem jedina pretpostavka je da imaš 
+instaliran Python u verziji 3.6 do 3.9 (standarnda distribucija sa
+sajta https://www.python.org/). Za sve ostalo
 (Džupiter i druge neophodne biblioteke) ćemo se pobrinuti mi.
 
-Obezbedi da tvoj računar bude povezan na internet, pa pokreni datoteku
+Obezbedi da tvoj računar bude povezan na internet, pa pokreni datoteku 
 
-  setup.bat
+  SETUP.BAT
 
 Njoj će trebati neko vreme da sa interneta prikupi relevantne biblioteke
 i onda će napraviti:
 
 - podfolder .env u kome se nalaze sve neophodne biblioteke (nema potrebe
   da tamo zaviruješ, ali ako i odlučiš da virneš nemoj ništa brisati!), 
-- prečicu ... kojom pokrećeš Džupiter, i
-- prečicu ... kojom pokrećeš Pajtonovo radno okruženje IDLE.
+- datoteku START_JUPYTER.BAT kojom pokrećeš Džupiter, i
+- prečicu START_IDLE kojom pokrećeš Pajtonovo radno okruženje IDLE.
+
+Sadržaj foldera
+===============
 
 Datoteke
 
@@ -59,10 +67,9 @@ sadrže pomoćne fajlove za segment "Obrada podataka u tekstualnom programskom j
 baciš pogled na podršku za naše kurseve.)
 
 Precizne instrukcije kako da pokreneš Džupiter, odnosno, IDLE, kako da pristupiš
-zadacima i šta se od tebe očekuje pri izradi svake vežbe naći ćeš u odgovarajućim
-lekcijama na sajtu
+zadacima i šta se od tebe očekuje pri izradi svake vežbe naći ćeš unutar kursa
 
-  www.petlja.org
+  https://petlja.org/kurs/483/
 
 Želimo ti uspešno učenje!
 
