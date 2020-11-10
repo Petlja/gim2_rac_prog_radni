@@ -73,7 +73,7 @@ zadacima i šta se od tebe očekuje pri izradi svake vežbe naći ćeš unutar k
 
 Želimo ti uspešno učenje!
 
-Za sve komentare ili probleme slobodno nam pišite naše forumu Algora:
+Za sve komentare ili probleme slobodno nam se obratite na našem forumu Algora:
 
   https://algora.petlja.org/c/pitanja
 
