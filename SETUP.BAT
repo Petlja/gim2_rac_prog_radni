@@ -9,7 +9,7 @@ if exist .env (
 setlocal EnableDelayedExpansion
 set MSG1=0
 set MSG2=0
-set PY_VERS=3.6,3.7,3.8,3.9
+set PY_VERS=3.6,3.7,3.8
 set PY_TEST_VER_LN="import sys; ('%%s.%%s' %% sys.version_info[0:2] in '%PY_VERS%'.split(',')) or quit(100)" 
 
 rem prvo pokusavamo python.exe iz PATH-a
@@ -55,13 +55,14 @@ echo.
 goto end
 
 :python_found
-python -c "import sys; print('*** Postavlja se virtuelno okruzenje za Python %%s.%%s.%%s koriscenjem Python-a koji se pokrece komandom \'%PY_CMD%\'' %% sys.version_info[0:3])"
+%PY_CMD% -c "import sys; print('*** Postavlja se virtuelno okruzenje za Python %%s.%%s.%%s koriscenjem Python-a koji se pokrece komandom \'%PY_CMD%\'' %% sys.version_info[0:3])"
 %PY_CMD% -m venv .env
 call .env\Scripts\activate.bat
 echo *** Virtuelno okruzenje je postavljeno u folderu .env
 echo.
 echo *** Instaliraju se potrebni paketi u virtuelno okruzenje (treba da ste povezani na internet)
 python -m pip install --upgrade pip
+python -m pip install wheel
 python -m pip install -r requirements.txt
 echo @echo off > START_JUPYTER.BAT
 echo call .env\Scripts\activate.bat >> START_JUPYTER.BAT
