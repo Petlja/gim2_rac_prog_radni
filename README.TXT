@@ -1,16 +1,17 @@
-#
-
 Dobro nam došao!
 
 Pozdravljamo tvoju odluku da preuzmeš datoteke za vežbu na svoj računar
 i da na taj način uvežbaš veštine za koje smatramo da su važne za svakog
 mladog čoveka koji će živeti i raditi u 21. veku!
 
-Ovaj folder sadrži datoteke za vežbu za kurs https://petlja.org/kurs/483/
-i pokriva obe teme tog kursa:
+Ovaj folder sadrži datoteke za vežbu za kurs Analiza podataka u Džupiteru i 
+tehnike programiranja za drugi razred gimnazije i pokriva obe teme tog kursa:
 
 - "Rad sa podacima u tekstualnom programskom jeziku" (Džupiter+Pajton) i
 - "Tehnike programiranja" (Pajton), 
+
+Kurs je na Petljinom portalu dostupan ovde: https://petlja.org/kurs/483/
+a repozitorijum kursa je: https://github.com/Petlja/gim2_rac_prog
 
 ## Podešavanje
 
