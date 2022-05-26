@@ -13,7 +13,8 @@ tehnike programiranja za drugi razred gimnazije i pokriva obe teme tog kursa:
 Kurs je na Petljinom portalu dostupan ovde: https://petlja.org/kurs/483/
 a repozitorijum kursa je: https://github.com/Petlja/gim2_rac_prog
 
-## Podešavanje
+Podešavanje
+===========
 
 Ako koristiš Windows operativni sistem jedina pretpostavka je da imaš 
 instaliran Python u verziji 3.6 do 3.9 (standarnda instalacija sa
@@ -32,7 +33,8 @@ i onda će napraviti:
 - datoteku START_JUPYTER.BAT kojom pokrećeš Džupiter, i
 - prečicu START_IDLE kojom pokrećeš Pajtonovo radno okruženje IDLE.
 
-## Sadržaj foldera
+Sadržaj foldera
+===============
 
 Sledeće datoteke sadrže vežbe iz teme "Rad sa podacima u tekstualnom 
 programskom jeziku":
