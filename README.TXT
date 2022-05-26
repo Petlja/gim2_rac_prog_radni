@@ -1,3 +1,5 @@
+#
+
 Dobro nam došao!
 
 Pozdravljamo tvoju odluku da preuzmeš datoteke za vežbu na svoj računar
@@ -10,8 +12,7 @@ i pokriva obe teme tog kursa:
 - "Rad sa podacima u tekstualnom programskom jeziku" (Džupiter+Pajton) i
 - "Tehnike programiranja" (Pajton), 
 
-Podešavanje
-===========
+## Podešavanje
 
 Ako koristiš Windows operativni sistem jedina pretpostavka je da imaš 
 instaliran Python u verziji 3.6 do 3.9 (standarnda instalacija sa
@@ -30,8 +31,7 @@ i onda će napraviti:
 - datoteku START_JUPYTER.BAT kojom pokrećeš Džupiter, i
 - prečicu START_IDLE kojom pokrećeš Pajtonovo radno okruženje IDLE.
 
-Sadržaj foldera
-===============
+## Sadržaj foldera
 
 Sledeće datoteke sadrže vežbe iz teme "Rad sa podacima u tekstualnom 
 programskom jeziku":
