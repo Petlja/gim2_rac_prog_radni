@@ -1,0 +1,133 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Saberi_n.py",
+      "path": "P02/Saberi_n.py",
+      "size": 94,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Iznad_proseka.py",
+      "path": "P02/Iznad_proseka.py",
+      "size": 198,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Saberi.py",
+      "path": "P02/Saberi.py",
+      "size": 111,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Milicin_dzeparac.py",
+      "path": "P02/Milicin_dzeparac.py",
+      "size": 217,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Teziste.py",
+      "path": "P02/Teziste.py",
+      "size": 253,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Prebroj_cifre.py",
+      "path": "P02/Prebroj_cifre.py",
+      "size": 138,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Sabiraj_do_stop.py",
+      "path": "P02/Sabiraj_do_stop.py",
+      "size": 111,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Dzeparac.py",
+      "path": "P02/Dzeparac.py",
+      "size": 353,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Prebroj_petice.py",
+      "path": "P02/Prebroj_petice.py",
+      "size": 161,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-08-20T20:06:20.814876Z",
+      "format": null,
+      "last_modified": "2022-08-20T19:51:31.454876Z",
+      "mimetype": "text/x-python",
+      "name": "Prebroj_ocene.py",
+      "path": "P02/Prebroj_ocene.py",
+      "size": 171,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-08-20T20:06:20.814876Z",
+  "format": "json",
+  "last_modified": "2022-08-20T20:06:20.814876Z",
+  "mimetype": null,
+  "name": "P02",
+  "path": "P02",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
