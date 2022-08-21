@@ -9,6 +9,7 @@
       "@jupyterlite/javascript-kernel-extension",
       "@jupyterlite/pyolite-kernel-extension"
     ],
+    "enableMemoryStorage": true,
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {
@@ -303,7 +304,9 @@
     "fullStaticUrl": "./build",
     "licensesUrl": "./lab/api/licenses",
     "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
-    "settingsStorageName": "JupyterLite d5a103f"
+    "settingsStorageDrivers": [
+      "memoryStorageDriver"
+    ]
   },
   "jupyter-lite-schema-version": 0
 }
