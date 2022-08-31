@@ -1,9 +1,13 @@
 {
+  "defaultKernelName": "xeus-python",
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
     "appVersion": "0.1.0-beta.12",
     "baseUrl": "./",
+    "contentsStorageDrivers": [
+      "memoryStorageDriver"
+    ],
     "defaultKernelName": "python",
     "disabledExtensions": [
       "@jupyterlite/javascript-kernel-extension",
