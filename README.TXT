@@ -4,20 +4,45 @@ Pozdravljamo tvoju odluku da preuzmeš datoteke za vežbu na svoj računar
 i da na taj način uvežbaš veštine za koje smatramo da su važne za svakog
 mladog čoveka koji će živeti i raditi u 21. veku!
 
-Ovaj folder sadrži datoteke za vežbu za kurs Analiza podataka u Džupiteru i 
+Ovaj folder sadrži primere za vežbu za kurs Analiza podataka u Džupiteru i 
 tehnike programiranja za drugi razred gimnazije i pokriva obe teme tog kursa:
 
 - "Rad sa podacima u tekstualnom programskom jeziku" (Džupiter+Pajton) i
-- "Tehnike programiranja" (Pajton), 
+- "Tehnike programiranja" (Pajton).
 
 Kurs je na Petljinom portalu dostupan ovde: https://petlja.org/kurs/483/
 a repozitorijum kursa je: https://github.com/Petlja/gim2_rac_prog
+
+Ako si nestrpljiv da pogledaš primere za vežbu, otvori link:
+
+https://petlja.github.io/gim2_rac_prog_radni
+
+To je JupyterLite okruženje koje se izvršava lokalno u web brauzeru pa će
+sve promene koje uneseš biti zaboravljene čim zatvoriš brauzer ili ako samo
+ponovo učitaš web stranu.
+
+Preporučujemo ti da podesiš okruženje Jupyter na svom računaru, što 
+u nastavku objašnjavamo kako se radi.
+
+Preuzimanje datoteka na lokalni računar
+=======================================
+
+Ukoliko ovaj README.TXT fajl čitaš iz lokalnog foldera na tvom računaru 
+onda znači da su datoteke već preute i da možeš da pređeš na dalje podešavanje.
+
+Ukoliko ovaj README.TXT čitaš na GitHub sajtu, onda datoteke možeš 
+da preuzmeš sa linka:
+
+https://github.com/Petlja/gim2_rac_prog_radni.git
+
+Ako znaš da  koristiš Git, možeš i pomoću Git-a da preneseš fajlove na 
+svoj računar.
 
 Podešavanje
 ===========
 
 Ako koristiš Windows operativni sistem jedina pretpostavka je da imaš 
-instaliran Python u verziji 3.6 do 3.9 (standarnda instalacija sa
+instaliran Python u verziji 3.7 do 3.10 (standarnda instalacija sa
 sajta https://www.python.org/). Za sve ostalo
 (Džupiter i druge neophodne biblioteke) ćemo se pobrinuti mi.
 
