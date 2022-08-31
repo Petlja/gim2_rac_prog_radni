@@ -24,6 +24,20 @@ ponovo učitaš web stranu.
 Preporučujemo ti da podesiš okruženje Jupyter na svom računaru, što 
 u nastavku objašnjavamo kako se radi.
 
+Preuzimanje datoteka na lokalni računar
+=======================================
+
+Ukoliko ovaj README.TXT fajl čitaš iz lokalnog foldera na tvom računaru 
+onda znači da su datoteke već preute i da možeš da pređeš na dalje podešavanje.
+
+Ukoliko ovaj README.TXT čitaš na GitHub sajtu, onda datoteke možeš 
+da preuzmeš sa linka:
+
+https://github.com/Petlja/gim2_rac_prog_radni.git
+
+Ako znaš da  koristiš Git, možeš i pomoću Git-a da preneseš fajlove na 
+svoj računar.
+
 Podešavanje
 ===========
 
