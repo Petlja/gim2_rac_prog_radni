@@ -33,7 +33,7 @@ onda znači da su datoteke već preute i da možeš da pređeš na dalje podeša
 Ukoliko ovaj README.TXT čitaš na GitHub sajtu, onda datoteke možeš 
 da preuzmeš sa linka:
 
-https://github.com/Petlja/gim2_rac_prog_radni.git
+https://github.com/Petlja/gim2_rac_prog_radni/archive/refs/heads/master.zip
 
 Ako znaš da  koristiš Git, možeš i pomoću Git-a da preneseš fajlove na 
 svoj računar.
