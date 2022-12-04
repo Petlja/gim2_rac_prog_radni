@@ -10,7 +10,7 @@ tehnike programiranja za drugi razred gimnazije i pokriva obe teme tog kursa:
 - "Rad sa podacima u tekstualnom programskom jeziku" (Džupiter+Pajton) i
 - "Tehnike programiranja" (Pajton).
 
-Kurs je na Petljinom portalu dostupan ovde: https://petlja.org/kurs/483/
+Kurs je na Petljinom portalu dostupan ovde: https://petlja.org/kurs/478/
 a repozitorijum kursa je: https://github.com/Petlja/gim2_rac_prog
 
 Ako si nestrpljiv da pogledaš primere za vežbu, otvori link:
@@ -33,7 +33,7 @@ onda znači da su datoteke već preute i da možeš da pređeš na dalje podeša
 Ukoliko ovaj README.TXT čitaš na GitHub sajtu, onda datoteke možeš 
 da preuzmeš sa linka:
 
-https://github.com/Petlja/gim2_rac_prog_radni.git
+https://github.com/Petlja/gim2_rac_prog_radni/archive/refs/heads/master.zip
 
 Ako znaš da  koristiš Git, možeš i pomoću Git-a da preneseš fajlove na 
 svoj računar.
@@ -61,26 +61,11 @@ i onda će napraviti:
 Sadržaj foldera
 ===============
 
-Sledeće datoteke sadrže vežbe iz teme "Rad sa podacima u tekstualnom 
-programskom jeziku":
+U datoteke sa ekstenzijom .ipynb nalaze se radne sveske za vežbu
 
-- J01.ipynb
-- J02.ipynb
-- J03.ipynb
-- J04.ipynb
-- J05.ipynb
-- J06.ipynb
-- J07.ipynb
-- J08.ipynb
-- J09.ipynb
-- J10.ipynb
-
-dok sledeći folderi teme "Tehnike programiranja":
+dok se u sledećiim folderima nalaze Python fajlovi u kojima treba rešiti pojedine zadatke:
 
 - P01
-- P02
-- P03
-- P04
 - P05
 - P06
 - P07
@@ -97,7 +82,7 @@ baciš pogled na podršku za naše kurseve.)
 Precizne instrukcije kako da pokreneš Džupiter, odnosno, IDLE, kako da pristupiš
 zadacima i šta se od tebe očekuje pri izradi svake vežbe naći ćeš unutar kursa
 
-  https://petlja.org/kurs/483/
+  https://petlja.org/kurs/478/
 
 Želimo ti uspešno učenje!
 
